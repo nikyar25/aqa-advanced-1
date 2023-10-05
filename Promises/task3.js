@@ -1,5 +1,5 @@
 async function getData() {
-     try {
+     try  {
         const responseTodo = await fetch("https://jsonplaceholder.typicode.com/todos/1");
         const responseUser = await fetch("https://jsonplaceholder.typicode.com/users/1");
 
